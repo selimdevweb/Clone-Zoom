@@ -1,0 +1,11 @@
+.video-grid{
+    display: flex;
+    grid-template-columns:auto-fill, 300px ;
+    grid-auto-rows: 300px;
+    background-color: aliceblue;
+}
+video{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
